@@ -10,11 +10,11 @@ ENV NB_USER=gnuradio \
     LANGUAGE=en_US.UTF-8 \
     CONDA_DIR=/opt/anaconda \
     NB_PYTHON_PREFIX=/opt/anaconda/envs/UHTE
-	
+
 ENV USER=${NB_USER} \
     NB_UID=${NB_UID} \
-    HOME=/home/${NB_USER} 
-	
+    HOME=/home/${NB_USER}
+
 RUN apt-get update
 
 # else it will output an error about Gtk namespace not found
