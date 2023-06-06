@@ -14,5 +14,5 @@ jobs:
       - name: Build the haki Docker image
         run: |
           docker build . --tag ghcr.io/oakdemirci/haki:latest:latest
-          docker run ghcr.io/oakdemirci/haki:latest:latest
+#          docker run ghcr.io/oakdemirci/haki:latest:latest
           docker push ghcr.io/oakdemirci/haki:latest:latest
