@@ -1,0 +1,16 @@
+name: UHTE
+channels:
+  - terradue
+  - conda-forge
+dependencies:
+  - python=3.9
+  - jupyter
+  - jupyterlab
+  - gnuradio=3.9
+  - numpy
+  - scipy
+  - matplotlib
+  - conda-forge::ipympl
+  - conda-forge::python-sounddevice
+  - soapysdr-module-rtlsdr
+  - pymodes
